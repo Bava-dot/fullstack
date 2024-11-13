@@ -25,7 +25,7 @@ execute this command in window bash:
 	4.sudo systemctl enable docker
 
 to build docker image:
-	5.sudo docker build -t image_name
+	5.sudo docker build -t image_name .
 
 to run :
 	6.docker run -d -p 5000:5000 image_name
